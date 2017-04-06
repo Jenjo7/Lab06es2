@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 //Costrutto per mostrare in una finsestra il metodo
                 marker.showInfoWindow();
 
-                googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(cesena, ));
+                googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(cesena, 12), 2000, null);
             }
         });
 
